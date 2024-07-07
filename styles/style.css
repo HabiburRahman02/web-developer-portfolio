@@ -21,6 +21,7 @@
 .text-dark {
     color: rgb(71, 71, 71);
 }
+
 .btn-primary {
     padding: 18px 36px;
     background-color: rgb(253, 110, 10);
@@ -33,6 +34,10 @@
 
 .bg-secondary {
     background: rgb(255, 248, 243);
+}
+
+.text-center {
+    text-align: center;
 }
 
 main {
@@ -139,12 +144,76 @@ nav li a {
     font-weight: 700;
     margin-bottom: 30px;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
+
 .item-des {
     font-size: 20px;
     font-weight: 700;
+}
+
+/* skills styles */
+.skills {
+    margin-bottom: 130px;
+}
+
+.skill {
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.skills-des {
+    margin-bottom: 50px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-des {
+    line-height: 28px;
+}
+/* resume styles */
+.resume{
+    margin-bottom: 113px;
+}
+.resume-top-title{
+    margin-bottom: 100px;
+}
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-main-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-education {
+    margin: 10px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.resume-column hr {
+    margin: 30px 0;
 }
