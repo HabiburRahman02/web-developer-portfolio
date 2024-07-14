@@ -259,6 +259,27 @@ footer textarea {
 
 /* responsive with media query */
 @media screen and (max-width: 576px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .btn-download {
+        margin-bottom: 20px;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
     .about {
         padding: 100px 10px;
     }
@@ -294,7 +315,6 @@ footer textarea {
         padding: 18px 30px;
         border: 0;
     }
-
 }
 
 .hide {
